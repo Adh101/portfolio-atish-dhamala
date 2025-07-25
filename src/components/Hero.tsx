@@ -23,16 +23,27 @@ const Hero = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             {/* Text Content */}
             <div className="text-center lg:text-left">
-              <h1 className="text-5xl md:text-6xl font-bold text-foreground mb-6 leading-tight">
-                Data & Analytics
-                <span className="block text-primary">Engineer</span>
+              <div className="mb-4">
+                <p className="text-lg text-muted-foreground mb-2">Hello, I'm</p>
+                <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-2">
+                  Alex Johnson
+                </h2>
+                <p className="text-xl text-primary font-medium">
+                  Senior Data & Analytics Engineer
+                </p>
+              </div>
+              
+              <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-6 leading-tight">
+                Transforming Data Into
+                <span className="block text-primary">Strategic Insights</span>
               </h1>
               
-              <p className="text-xl md:text-2xl text-muted-foreground mb-8 leading-relaxed">
-                Transforming complex data into actionable insights and building scalable analytics solutions
+              <p className="text-lg md:text-xl text-muted-foreground mb-8 leading-relaxed">
+                I specialize in building scalable data pipelines, creating actionable analytics, 
+                and driving data-driven decision making across organizations.
               </p>
               
-              <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start items-center mb-8">
+              <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start items-center">
                 <Button 
                   size="lg"
                   className="bg-primary hover:bg-primary/90 text-primary-foreground px-8 py-6 text-lg"
@@ -59,21 +70,6 @@ const Hero = () => {
                   <Download className="mr-2 h-5 w-5" />
                   Resume
                 </Button>
-              </div>
-              
-              <div className="grid grid-cols-3 gap-8">
-                <div className="text-center lg:text-left">
-                  <div className="text-3xl font-bold text-primary mb-2">5+</div>
-                  <div className="text-muted-foreground">Years Experience</div>
-                </div>
-                <div className="text-center lg:text-left">
-                  <div className="text-3xl font-bold text-primary mb-2">50+</div>
-                  <div className="text-muted-foreground">Projects Completed</div>
-                </div>
-                <div className="text-center lg:text-left">
-                  <div className="text-3xl font-bold text-primary mb-2">10+</div>
-                  <div className="text-muted-foreground">Certifications</div>
-                </div>
               </div>
             </div>
             
