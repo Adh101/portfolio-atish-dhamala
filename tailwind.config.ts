@@ -52,13 +52,11 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
-				'tech-blue': {
-					DEFAULT: 'hsl(var(--tech-blue))',
-					light: 'hsl(var(--tech-blue-light))'
-				},
-				'tech-slate': {
-					DEFAULT: 'hsl(var(--tech-slate))',
-					light: 'hsl(var(--tech-slate-light))'
+				'neutral-custom': {
+					dark: 'hsl(var(--neutral-dark))',
+					medium: 'hsl(var(--neutral-medium))',
+					light: 'hsl(var(--neutral-light))',
+					accent: 'hsl(var(--neutral-accent))'
 				},
 				success: {
 					DEFAULT: 'hsl(var(--success))',

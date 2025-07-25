@@ -142,7 +142,7 @@ const Education = () => {
                           <Badge 
                             key={i} 
                             variant="secondary" 
-                            className="bg-tech-blue-light text-tech-blue border-tech-blue/20"
+                            className="bg-neutral-custom-light text-neutral-custom-dark border-neutral-custom-medium/20"
                           >
                             {course}
                           </Badge>

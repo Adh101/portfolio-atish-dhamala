@@ -94,7 +94,7 @@ const Projects = () => {
                     <CardTitle className="text-xl font-bold text-foreground group-hover:text-primary transition-colors">
                       {project.title}
                     </CardTitle>
-                    <Badge variant="secondary" className="bg-tech-blue-light text-tech-blue">
+                    <Badge variant="secondary" className="bg-neutral-custom-light text-neutral-custom-dark">
                       {project.category}
                     </Badge>
                   </div>

@@ -1,5 +1,4 @@
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
-import { Progress } from '@/components/ui/progress';
 import { Badge } from '@/components/ui/badge';
 import { 
   Database, 
@@ -16,66 +15,66 @@ const Skills = () => {
       icon: <Database className="h-6 w-6 text-primary" />,
       title: "Data Engineering",
       skills: [
-        { name: "Python", level: 95 },
-        { name: "SQL", level: 90 },
-        { name: "Apache Spark", level: 85 },
-        { name: "Apache Kafka", level: 80 },
-        { name: "ETL/ELT", level: 90 }
+        "Python",
+        "SQL", 
+        "Apache Spark",
+        "Apache Kafka",
+        "ETL/ELT"
       ]
     },
     {
       icon: <BarChart3 className="h-6 w-6 text-primary" />,
       title: "Analytics & BI",
       skills: [
-        { name: "Tableau", level: 85 },
-        { name: "Power BI", level: 80 },
-        { name: "Looker", level: 75 },
-        { name: "Data Modeling", level: 90 },
-        { name: "Statistical Analysis", level: 85 }
+        "Tableau",
+        "Power BI",
+        "Looker",
+        "Data Modeling",
+        "Statistical Analysis"
       ]
     },
     {
       icon: <Brain className="h-6 w-6 text-primary" />,
       title: "Machine Learning",
       skills: [
-        { name: "TensorFlow", level: 80 },
-        { name: "scikit-learn", level: 85 },
-        { name: "PyTorch", level: 75 },
-        { name: "MLflow", level: 80 },
-        { name: "Feature Engineering", level: 90 }
+        "TensorFlow",
+        "scikit-learn",
+        "PyTorch",
+        "MLflow",
+        "Feature Engineering"
       ]
     },
     {
       icon: <Cloud className="h-6 w-6 text-primary" />,
       title: "Cloud Platforms",
       skills: [
-        { name: "AWS", level: 85 },
-        { name: "Google Cloud", level: 75 },
-        { name: "Azure", level: 70 },
-        { name: "Snowflake", level: 80 },
-        { name: "Databricks", level: 75 }
+        "AWS",
+        "Google Cloud",
+        "Azure",
+        "Snowflake",
+        "Databricks"
       ]
     },
     {
       icon: <Code className="h-6 w-6 text-primary" />,
       title: "Programming",
       skills: [
-        { name: "Python", level: 95 },
-        { name: "R", level: 80 },
-        { name: "Java", level: 70 },
-        { name: "Scala", level: 65 },
-        { name: "JavaScript", level: 75 }
+        "Python",
+        "R",
+        "Java",
+        "Scala",
+        "JavaScript"
       ]
     },
     {
       icon: <Workflow className="h-6 w-6 text-primary" />,
       title: "DevOps & Tools",
       skills: [
-        { name: "Docker", level: 85 },
-        { name: "Kubernetes", level: 75 },
-        { name: "Terraform", level: 80 },
-        { name: "Git", level: 90 },
-        { name: "CI/CD", level: 80 }
+        "Docker",
+        "Kubernetes",
+        "Terraform",
+        "Git",
+        "CI/CD"
       ]
     }
   ];
@@ -114,22 +113,15 @@ const Skills = () => {
                   </CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <div className="space-y-4">
+                  <div className="flex flex-wrap gap-3">
                     {category.skills.map((skill, skillIndex) => (
-                      <div key={skillIndex}>
-                        <div className="flex justify-between items-center mb-2">
-                          <span className="text-sm font-medium text-foreground">
-                            {skill.name}
-                          </span>
-                          <span className="text-xs text-muted-foreground">
-                            {skill.level}%
-                          </span>
-                        </div>
-                        <Progress 
-                          value={skill.level} 
-                          className="h-2"
-                        />
-                      </div>
+                      <Badge 
+                        key={skillIndex}
+                        variant="secondary" 
+                        className="bg-neutral-custom-light text-neutral-custom-dark border-neutral-custom-medium/20 px-3 py-2 text-sm font-medium"
+                      >
+                        {skill}
+                      </Badge>
                     ))}
                   </div>
                 </CardContent>
@@ -149,7 +141,7 @@ const Skills = () => {
                   <Badge 
                     key={index} 
                     variant="secondary" 
-                    className="bg-tech-blue-light text-tech-blue border-tech-blue/20 p-3 text-center justify-center text-sm font-medium"
+                    className="bg-neutral-custom-light text-neutral-custom-dark border-neutral-custom-medium/20 p-3 text-center justify-center text-sm font-medium"
                   >
                     {cert}
                   </Badge>

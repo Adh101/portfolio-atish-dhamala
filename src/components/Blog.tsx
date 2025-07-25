@@ -159,7 +159,7 @@ const Blog = () => {
               <Card key={index} className="bg-card border-border hover:shadow-lg transition-all duration-300 group">
                 <CardHeader>
                   <div className="flex items-center justify-between mb-2">
-                    <Badge variant="secondary" className="bg-tech-blue-light text-tech-blue text-xs">
+                    <Badge variant="secondary" className="bg-neutral-custom-light text-neutral-custom-dark text-xs">
                       {post.category}
                     </Badge>
                     <span className="text-xs text-muted-foreground">
