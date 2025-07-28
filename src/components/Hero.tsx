@@ -1,7 +1,7 @@
 import { Button } from '@/components/ui/button';
 import { ChevronDown, Download, Mail } from 'lucide-react';
 import heroBackground from '@/assets/hero-bg.jpg';
-import profilePhoto from '@/assets/profile-photo.jpg';
+import profilePhoto from '@/assets/atish-profile-picture.jpg';
 
 const Hero = () => {
   const scrollToSection = (sectionId: string) => {
