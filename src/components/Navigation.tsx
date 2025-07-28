@@ -28,8 +28,7 @@ const Navigation = () => {
     { label: 'Education', href: 'education' },
     { label: 'Projects', href: 'projects' },
     { label: 'Skills', href: 'skills' },
-    { label: 'Blogs', href: 'blogs' },
-    { label: 'Contact', href: 'contact' }
+    { label: 'Blogs', href: 'blogs' }
   ];
 
   return (
