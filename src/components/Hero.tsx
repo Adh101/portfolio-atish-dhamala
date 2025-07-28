@@ -23,20 +23,15 @@ const Hero = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             {/* Text Content */}
             <div className="text-center lg:text-left">
-              <div className="mb-4">
-                <p className="text-lg text-muted-foreground mb-2">Hello, I'm</p>
-                <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-2">
+              <div className="mb-6">
+                <p className="text-lg text-muted-foreground mb-4 animate-fade-in">Hello, I'm</p>
+                <h1 className="text-5xl md:text-7xl font-bold text-foreground mb-4 leading-tight">
                   Alex Johnson
-                </h2>
+                </h1>
                 <p className="text-xl text-primary font-medium">
                   Senior Data & Analytics Engineer
                 </p>
               </div>
-              
-              <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-6 leading-tight">
-                Transforming Data Into
-                <span className="block text-primary">Strategic Insights</span>
-              </h1>
               
               <p className="text-lg md:text-xl text-muted-foreground mb-8 leading-relaxed">
                 I specialize in building scalable data pipelines, creating actionable analytics, 
