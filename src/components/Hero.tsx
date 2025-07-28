@@ -29,7 +29,7 @@ const Hero = () => {
                   Atish Dhamala
                 </h1>
                 <p className="text-xl text-primary font-medium">
-                  Senior Data & Analytics Engineer
+                  Data & Analytics Engineer
                 </p>
               </div>
               
