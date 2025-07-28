@@ -5,14 +5,27 @@ import { Menu, X } from 'lucide-react';
 const Navigation = () => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const [isVisible, setIsVisible] = useState(true);
+  const [lastScrollY, setLastScrollY] = useState(0);
 
   useEffect(() => {
     const handleScroll = () => {
-      setIsScrolled(window.scrollY > 50);
+      const currentScrollY = window.scrollY;
+      
+      // Show/hide based on scroll direction
+      if (currentScrollY < lastScrollY || currentScrollY < 100) {
+        setIsVisible(true);
+      } else {
+        setIsVisible(false);
+      }
+      
+      setIsScrolled(currentScrollY > 50);
+      setLastScrollY(currentScrollY);
     };
+
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
-  }, []);
+  }, [lastScrollY]);
 
   const scrollToSection = (sectionId: string) => {
     const element = document.getElementById(sectionId);
@@ -32,7 +45,9 @@ const Navigation = () => {
   ];
 
   return (
-    <nav className={`fixed top-0 w-full z-50 transition-all duration-300 ${
+    <nav className={`fixed top-0 w-full z-50 transition-all duration-300 transform ${
+      isVisible ? 'translate-y-0' : '-translate-y-full'
+    } ${
       isScrolled ? 'bg-background/80 backdrop-blur-md border-b border-border' : 'bg-transparent'
     }`}>
       <div className="container mx-auto px-4 py-4">
