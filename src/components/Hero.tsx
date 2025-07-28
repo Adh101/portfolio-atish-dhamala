@@ -26,7 +26,7 @@ const Hero = () => {
               <div className="mb-6">
                 <p className="text-lg text-muted-foreground mb-4 animate-fade-in">Hello, I'm</p>
                 <h1 className="text-5xl md:text-7xl font-bold text-foreground mb-4 leading-tight">
-                  ATISH DHAMALA
+                  Atish Dhamala
                 </h1>
                 <p className="text-xl text-primary font-medium">
                   Senior Data & Analytics Engineer
