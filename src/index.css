@@ -8,38 +8,38 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 240 5% 8%;
-    --foreground: 240 5% 92%;
+    --background: 240 10% 3%;
+    --foreground: 0 0% 98%;
 
-    --card: 240 5% 12%;
-    --card-foreground: 240 5% 92%;
+    --card: 240 10% 8%;
+    --card-foreground: 0 0% 98%;
 
-    --popover: 240 5% 12%;
-    --popover-foreground: 240 5% 92%;
+    --popover: 240 10% 8%;
+    --popover-foreground: 0 0% 98%;
 
-    --primary: 240 5% 75%;
-    --primary-foreground: 240 5% 8%;
+    --primary: 0 0% 98%;
+    --primary-foreground: 240 10% 3%;
 
-    --secondary: 240 3% 92%;
-    --secondary-foreground: 240 5% 20%;
+    --secondary: 240 4% 16%;
+    --secondary-foreground: 0 0% 98%;
 
-    --muted: 240 3% 92%;
-    --muted-foreground: 240 4% 45%;
+    --muted: 240 4% 16%;
+    --muted-foreground: 240 5% 64%;
 
-    --accent: 240 3% 90%;
-    --accent-foreground: 240 5% 20%;
+    --accent: 240 4% 16%;
+    --accent-foreground: 0 0% 98%;
 
     --destructive: 0 84% 60%;
     --destructive-foreground: 0 0% 98%;
 
-    --border: 240 3% 88%;
-    --input: 240 3% 88%;
-    --ring: 240 5% 25%;
+    --border: 240 6% 20%;
+    --input: 240 6% 20%;
+    --ring: 0 0% 98%;
 
     /* Portfolio specific colors */
-    --neutral-dark: 240 5% 25%;
-    --neutral-medium: 240 4% 45%;
-    --neutral-light: 240 3% 90%;
+    --neutral-dark: 240 10% 3%;
+    --neutral-medium: 240 5% 64%;
+    --neutral-light: 240 4% 16%;
     --neutral-accent: 30 8% 60%;
     --success: 142 76% 36%;
     --success-foreground: 0 0% 98%;
