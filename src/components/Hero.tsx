@@ -71,7 +71,7 @@ const Hero = () => {
             {/* Profile Picture Section */}
             <div className="flex justify-center lg:justify-end">
               <div className="relative">
-                <div className="w-80 h-80 md:w-96 md:h-96 rounded-2xl overflow-hidden border-4 border-neutral-custom-light shadow-2xl">
+                <div className="w-80 h-82 md:w-96 md:h-96 rounded-2xl overflow-hidden border-4 border-neutral-custom-light shadow-2xl">
                   <img 
                     src={profilePhoto} 
                     alt="Professional headshot" 
