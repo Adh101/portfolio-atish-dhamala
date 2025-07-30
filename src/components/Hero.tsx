@@ -12,7 +12,7 @@ const Hero = () => {
   };
 
   return (
-    <section className="min-h-screen flex items-center justify-center relative bg-gradient-to-br from-background to-neutral-custom-light overflow-hidden">
+    <section className="min-h-screen flex items-center justify-center relative bg-gradient-to-br from-background to-neutral-custom-light overflow-hidden pt-20">
       <div 
         className="absolute inset-0 opacity-5 bg-cover bg-center"
         style={{ backgroundImage: `url(${heroBackground})` }}

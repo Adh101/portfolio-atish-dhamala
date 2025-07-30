@@ -90,14 +90,9 @@ const Projects = () => {
             {projects.map((project, index) => (
               <Card key={index} className="bg-card border-border hover:shadow-xl transition-all duration-300 group">
                 <CardHeader>
-                  <div className="flex items-start justify-between mb-2">
-                    <CardTitle className="text-xl font-bold text-foreground group-hover:text-primary transition-colors">
-                      {project.title}
-                    </CardTitle>
-                    <Badge variant="secondary" className="bg-neutral-custom-light text-neutral-custom-dark">
-                      {project.category}
-                    </Badge>
-                  </div>
+                  <CardTitle className="text-xl font-bold text-foreground group-hover:text-primary transition-colors mb-4">
+                    {project.title}
+                  </CardTitle>
                   <p className="text-muted-foreground leading-relaxed">
                     {project.description}
                   </p>
@@ -131,23 +126,6 @@ const Projects = () => {
                     </div>
                   </div>
 
-                  <div className="flex gap-3">
-                    <Button 
-                      size="sm" 
-                      className="bg-primary hover:bg-primary/90 text-primary-foreground"
-                    >
-                      <ExternalLink className="mr-2 h-4 w-4" />
-                      View Demo
-                    </Button>
-                    <Button 
-                      variant="outline" 
-                      size="sm"
-                      className="border-primary text-primary hover:bg-primary hover:text-primary-foreground"
-                    >
-                      <Github className="mr-2 h-4 w-4" />
-                      Code
-                    </Button>
-                  </div>
                 </CardContent>
               </Card>
             ))}
