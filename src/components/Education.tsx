@@ -5,11 +5,11 @@ import { GraduationCap, Award, BookOpen, Calendar } from 'lucide-react';
 const Education = () => {
   const education = [
     {
-      degree: "Master of Science in Data Science",
-      institution: "Stanford University",
-      location: "Stanford, CA",
-      period: "2017 - 2019",
-      gpa: "3.9/4.0",
+      degree: "Master of Science in Computer Science - Artificial Intelligence",
+      institution: "University of South Dakota",
+      location: "Vermillion,SD",
+      period: "2024 - 2025",
+      gpa: "4.0/4.0",
       achievements: [
         "Summa Cum Laude",
         "Outstanding Graduate Student Award",
@@ -24,10 +24,10 @@ const Education = () => {
       ]
     },
     {
-      degree: "Bachelor of Science in Computer Science",
-      institution: "University of California, Berkeley",
-      location: "Berkeley, CA",
-      period: "2013 - 2017",
+      degree: "Bachelor of Engineering in Information Technology",
+      institution: "Pokhara University",
+      location: "Nepal",
+      period: "2016 - 2021",
       gpa: "3.8/4.0",
       achievements: [
         "Magna Cum Laude",
