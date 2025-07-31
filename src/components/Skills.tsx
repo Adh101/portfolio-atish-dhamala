@@ -79,17 +79,6 @@ const Skills = () => {
     }
   ];
 
-  const certifications = [
-    "AWS Certified Data Analytics",
-    "Google Cloud Professional Data Engineer",
-    "Snowflake SnowPro Core",
-    "Tableau Desktop Specialist",
-    "Microsoft Azure Data Scientist",
-    "Databricks Certified Data Engineer",
-    "Apache Spark Developer",
-    "MongoDB Certified Developer"
-  ];
-
   return (
     <section id="skills" className="py-20 bg-muted/20">
       <div className="container mx-auto px-4">
@@ -103,7 +92,7 @@ const Skills = () => {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {skillCategories.map((category, index) => (
               <Card key={index} className="bg-card border-border hover:shadow-lg transition-shadow duration-300">
                 <CardHeader>
@@ -128,27 +117,6 @@ const Skills = () => {
               </Card>
             ))}
           </div>
-
-          <Card className="bg-card border-border">
-            <CardHeader>
-              <CardTitle className="text-2xl text-center">
-                Professional Certifications
-              </CardTitle>
-            </CardHeader>
-            <CardContent>
-              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
-                {certifications.map((cert, index) => (
-                  <Badge 
-                    key={index} 
-                    variant="secondary" 
-                    className="bg-neutral-custom-light text-neutral-custom-dark border-neutral-custom-medium/20 p-3 text-center justify-center text-sm font-medium"
-                  >
-                    {cert}
-                  </Badge>
-                ))}
-              </div>
-            </CardContent>
-          </Card>
         </div>
       </div>
     </section>
