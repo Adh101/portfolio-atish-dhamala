@@ -126,6 +126,16 @@ const Projects = () => {
                     </div>
                   </div>
 
+                  <div className="flex gap-3">
+                    <Button 
+                      variant="outline" 
+                      size="sm"
+                      className="border-primary text-primary hover:bg-primary hover:text-primary-foreground"
+                    >
+                      <Github className="mr-2 h-4 w-4" />
+                      Code
+                    </Button>
+                  </div>
                 </CardContent>
               </Card>
             ))}
