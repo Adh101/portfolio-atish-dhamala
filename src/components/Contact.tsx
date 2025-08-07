@@ -243,6 +243,12 @@ const Contact = () => {
                   <Button 
                     variant="outline" 
                     className="border-primary text-primary hover:bg-primary hover:text-primary-foreground"
+                    onClick={() => {
+                      const link = document.createElement('a');
+                      link.href = '/atish-dhamala-resume.pdf';
+                      link.download = 'Atish-Dhamala-Resume.pdf';
+                      link.click();
+                    }}
                   >
                     <Download className="mr-2 h-4 w-4" />
                     Download PDF
