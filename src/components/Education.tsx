@@ -10,11 +10,6 @@ const Education = () => {
       location: "Vermillion,SD",
       period: "2024 - 2025",
       gpa: "4.0/4.0",
-      achievements: [
-        "Summa Cum Laude",
-        "Outstanding Graduate Student Award",
-        "Research Assistant in ML Lab"
-      ],
       coursework: [
         "Machine Learning",
         "Statistical Computing",
@@ -29,11 +24,6 @@ const Education = () => {
       location: "Nepal",
       period: "2016 - 2021",
       gpa: "3.8/4.0",
-      achievements: [
-        "Magna Cum Laude",
-        "Dean's List (6 semesters)",
-        "Computer Science Honor Society"
-      ],
       coursework: [
         "Data Structures & Algorithms",
         "Database Systems",
@@ -112,42 +102,23 @@ const Education = () => {
                     </div>
                   </div>
 
-                  <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
-                    <div>
-                      <div className="flex items-center gap-2 mb-4">
-                        <Award className="h-5 w-5 text-primary" />
-                        <h4 className="text-lg font-semibold text-foreground">
-                          Achievements
-                        </h4>
-                      </div>
-                      <ul className="space-y-2">
-                        {edu.achievements.map((achievement, i) => (
-                          <li key={i} className="flex items-start gap-3 text-muted-foreground">
-                            <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0" />
-                            <span>{achievement}</span>
-                          </li>
-                        ))}
-                      </ul>
+                  <div>
+                    <div className="flex items-center gap-2 mb-4">
+                      <BookOpen className="h-5 w-5 text-primary" />
+                      <h4 className="text-lg font-semibold text-foreground">
+                        Relevant Coursework
+                      </h4>
                     </div>
-
-                    <div>
-                      <div className="flex items-center gap-2 mb-4">
-                        <BookOpen className="h-5 w-5 text-primary" />
-                        <h4 className="text-lg font-semibold text-foreground">
-                          Relevant Coursework
-                        </h4>
-                      </div>
-                      <div className="flex flex-wrap gap-2">
-                        {edu.coursework.map((course, i) => (
-                          <Badge 
-                            key={i} 
-                            variant="secondary" 
-                            className="bg-neutral-custom-light text-neutral-custom-dark border-neutral-custom-medium/20"
-                          >
-                            {course}
-                          </Badge>
-                        ))}
-                      </div>
+                    <div className="flex flex-wrap gap-2">
+                      {edu.coursework.map((course, i) => (
+                        <Badge 
+                          key={i} 
+                          variant="secondary" 
+                          className="bg-neutral-custom-light text-neutral-custom-dark border-neutral-custom-medium/20"
+                        >
+                          {course}
+                        </Badge>
+                      ))}
                     </div>
                   </div>
                 </CardContent>
