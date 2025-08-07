@@ -131,9 +131,12 @@ const Projects = () => {
                       variant="outline" 
                       size="sm"
                       className="border-primary text-primary hover:bg-primary hover:text-primary-foreground"
+                      asChild
                     >
-                      <Github className="mr-2 h-4 w-4" />
-                      Code
+                      <a href={project.githubUrl} target="_blank" rel="noopener noreferrer">
+                        <Github className="mr-2 h-4 w-4" />
+                        Code
+                      </a>
                     </Button>
                   </div>
                 </CardContent>
