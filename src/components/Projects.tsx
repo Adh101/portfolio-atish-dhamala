@@ -149,9 +149,12 @@ const Projects = () => {
               variant="outline" 
               size="lg"
               className="border-primary text-primary hover:bg-primary hover:text-primary-foreground"
+              asChild
             >
-              <Github className="mr-2 h-5 w-5" />
-              View All Projects on GitHub
+              <a href="https://github.com/Adh101" target="_blank" rel="noopener noreferrer">
+                <Github className="mr-2 h-5 w-5" />
+                View All Projects on GitHub
+              </a>
             </Button>
           </div>
         </div>
