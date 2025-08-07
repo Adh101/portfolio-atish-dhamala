@@ -15,7 +15,7 @@ const Projects = () => {
         "Machine learning-powered anomaly detection"
       ],
       demoUrl: "#",
-      githubUrl: "#",
+      githubUrl: "https://github.com/Adh101/End-to-end-Data-Engineering-Analytics-Project-using-PostgresSQL-Python-Google-Sheets-Tableau",
       category: "Data Engineering"
     },
     {
