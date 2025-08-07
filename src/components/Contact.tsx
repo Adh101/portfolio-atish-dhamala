@@ -246,7 +246,7 @@ const Contact = () => {
                     onClick={() => {
                       const link = document.createElement('a');
                       link.href = 'public/Resume_Atish_Dhamala.pdf';
-                      link.download = 'public/Resume_Atish_Dhamala.pdf';
+                      link.download = 'Resume_Atish_Dhamala.pdf';
                       link.click();
                     }}
                   >
