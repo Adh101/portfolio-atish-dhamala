@@ -1,5 +1,6 @@
 import { Card, CardContent } from '@/components/ui/card';
 import { BarChart3, Database, TrendingUp, Users } from 'lucide-react';
+import dataAnalyticsImage from '@/assets/data-analytics-workspace.jpg';
 
 const About = () => {
   const highlights = [
@@ -62,10 +63,12 @@ const About = () => {
             </div>
 
             <div className="relative">
-              <div className="aspect-square bg-gradient-to-br from-primary/10 to-accent/10 rounded-2xl flex items-center justify-center">
-                <div className="text-8xl text-primary/20 font-bold">
-                  {"{ }"}
-                </div>
+              <div className="aspect-square rounded-2xl overflow-hidden shadow-lg">
+                <img 
+                  src={dataAnalyticsImage} 
+                  alt="Data analytics and engineering workspace with multiple monitors showing data visualizations, charts, and code"
+                  className="w-full h-full object-cover"
+                />
               </div>
             </div>
           </div>
