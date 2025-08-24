@@ -15,7 +15,7 @@ const Experience = () => {
         "Implemented real-time analytics platform serving 500K+ queries/day",
         "Led team of 4 engineers in migrating legacy systems to cloud-native architecture"
       ],
-      technologies: ["Python", "SQL" "Apache Spark","Kafka", "Flink" "AWS", "Snowflake", "Databricks", "Terraform"]
+      technologies: ["Python", "SQL", "Apache Spark", "Kafka", "Flink", "AWS", "Snowflake", "Databricks", "Terraform"]
     },
     {
       title: "Research Data Analyst",
