@@ -6,14 +6,13 @@ import { Calendar, Clock, ExternalLink, TrendingUp } from 'lucide-react';
 const Blog = () => {
   const blogPosts = [
     {
-      title: "Building Scalable Data Pipelines with Apache Kafka and Spark",
-      excerpt: "Learn how to design and implement robust data pipelines that can handle millions of events per second while maintaining data quality and reliability.",
+      title: "How Apache Spark Transformed Distributed Computing — Architecture, Joins & Shuffling Explained!!",
+      excerpt: "Week 3 of Zach Wilson’s Data Engineering Bootcamp was a deep dive into Apache Spark — the engine that powers modern distributed data systems. From internal architecture to join strategies and memory management, here’s everything I learned, distilled for data engineers building production pipelines.",
       date: "2024-01-15",
       readTime: "8 min read",
       category: "Data Engineering",
-      tags: ["Kafka", "Spark", "Python", "Microservices"],
-      views: "2.4k",
-      url: "#"
+      tags: ['Apache Spark','Data Engineering'],
+      url: "https://medium.com/@atish.dhamala/how-apache-spark-transformed-distributed-computing-architecture-joins-shuffling-explained-65c6e29de0cb"
     },
     {
       title: "MLOps Best Practices: From Model Development to Production",
