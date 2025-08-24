@@ -15,24 +15,24 @@ const Blog = () => {
       url: "https://medium.com/@atish.dhamala/how-apache-spark-transformed-distributed-computing-architecture-joins-shuffling-explained-65c6e29de0cb"
     },
     {
-      title: "MLOps Best Practices: From Model Development to Production",
-      excerpt: "A comprehensive guide to implementing MLOps practices that ensure smooth model deployment, monitoring, and maintenance in production environments.",
+      title: "Dimensional Data Modeling — Part 2: Idempotency and Slowly Changing Dimensions (SCD Type 2) with NBA Player Stats",
+      excerpt: "Exploring the foundation of dimensional data modeling with cumulative table design",
       date: "2023-12-20",
       readTime: "12 min read",
-      category: "Machine Learning",
-      tags: ["MLOps", "Docker", "Kubernetes", "MLflow"],
+      category: "Dimensional Data Modeing",
+      tags: ["Dimensional Data Modeing","SCDs", "Cumulative Table Design"],
       views: "3.1k",
-      url: "#"
+      url: "https://medium.com/@atish.dhamala/dimensional-data-modeling-part-2-idempotency-and-slowly-changing-dimensions-scd-type-2-with-eb60f23d1423"
     },
     {
-      title: "Real-time Analytics: Processing Streaming Data at Scale",
-      excerpt: "Explore the architecture and implementation details of building real-time analytics systems that provide instant insights from streaming data sources.",
+      title: "Dimensional Data Modeling in Action: Building Cumulative Tables with NBA Player Stats",
+      excerpt: "Deep dive into Dimensional Data Modeling — the bedrock of analytical systems.",
       date: "2023-11-30",
       readTime: "10 min read",
-      category: "Analytics",
-      tags: ["Real-time", "Streaming", "Analytics", "Architecture"],
+      category: "Data Modeling",
+      tags: ["Dimensional Data Modeing","SCDs", "Cumulative Table Design"],
       views: "1.8k",
-      url: "#"
+      url: "https://medium.com/@atish.dhamala/dimensional-data-modeling-in-action-building-cumulative-tables-with-nba-player-stats-392d340a581d"
     },
     {
       title: "Data Warehouse vs Data Lake vs Data Lakehouse: A Modern Comparison",
