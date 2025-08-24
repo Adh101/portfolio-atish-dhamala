@@ -5,22 +5,22 @@ import { Building, Calendar, MapPin } from 'lucide-react';
 const Experience = () => {
   const experiences = [
     {
-      title: "Senior Data Engineer",
-      company: "TechCorp Analytics",
+      title: "Data Engineer - Remote",
+      company: "SuperAI Brain Inc.",
       location: "San Francisco, CA",
-      period: "2022 - Present",
-      description: "Leading data engineering initiatives for a high-growth SaaS platform serving 1M+ users. Built scalable data pipelines processing 100TB+ daily.",
+      period: "2022 - 2024",
+      description: "Leading data engineering and analytics initiatives for a high-growth SaaS platform serving 1M+ users. Built scalable data pipelines processing 100TB+ daily.",
       achievements: [
         "Reduced data processing time by 60% through optimized ETL pipelines",
         "Implemented real-time analytics platform serving 500K+ queries/day",
         "Led team of 4 engineers in migrating legacy systems to cloud-native architecture"
       ],
-      technologies: ["Python", "Apache Spark", "AWS", "Snowflake", "Kubernetes", "Terraform"]
+      technologies: ["Python", "SQL" "Apache Spark","Kafka", "Flink" "AWS", "Snowflake", "Databricks", "Terraform"]
     },
     {
-      title: "Data Analyst",
-      company: "FinanceFlow Inc",
-      location: "New York, NY",
+      title: "Research Data Analyst",
+      company: "Ingrails Pvt.Ltd",
+      location: "Nepal",
       period: "2020 - 2022",
       description: "Developed analytics solutions for financial risk assessment and fraud detection systems, processing millions of transactions daily.",
       achievements: [
@@ -31,9 +31,9 @@ const Experience = () => {
       technologies: ["SQL", "Python", "Tableau", "PostgreSQL", "Docker", "scikit-learn"]
     },
     {
-      title: "Junior Data Scientist",
-      company: "DataStart Solutions",
-      location: "Austin, TX",
+      title: "Data Analyst",
+      company: "Freshktm Pvt Ltd",
+      location: "Nepal",
       period: "2019 - 2020",
       description: "Started career building predictive models and automated reporting systems for e-commerce clients.",
       achievements: [
