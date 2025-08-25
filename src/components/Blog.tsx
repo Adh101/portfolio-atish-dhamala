@@ -44,8 +44,6 @@ const Blog = () => {
   ];
 
   const categories = ["All", "Data Engineering", "Machine Learning", "Analytics", "Leadership"];
-  const featuredPost = blogPosts[0];
-  const regularPosts = blogPosts.slice(1);
 
   return (
     <section id="blogs" className="py-20 bg-muted/20">
@@ -73,65 +71,9 @@ const Blog = () => {
             ))}
           </div>
 
-          {/* Featured Post */}
-          <Card className="bg-card border-border hover:shadow-xl transition-shadow duration-300 mb-12">
-            <CardContent className="p-8">
-              <div className="flex items-center gap-2 mb-4">
-                <TrendingUp className="h-5 w-5 text-primary" />
-                <Badge variant="secondary" className="bg-primary/10 text-primary">
-                  Featured Post
-                </Badge>
-              </div>
-              
-              <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
-                <div>
-                  <h3 className="text-2xl md:text-3xl font-bold text-foreground mb-4 leading-tight">
-                    {featuredPost.title}
-                  </h3>
-                  <p className="text-muted-foreground mb-6 leading-relaxed">
-                    {featuredPost.excerpt}
-                  </p>
-                  
-                  <div className="flex flex-wrap items-center gap-4 mb-6 text-sm text-muted-foreground">
-                    <div className="flex items-center gap-2">
-                      <Calendar className="h-4 w-4" />
-                      <span>{new Date(featuredPost.date).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}</span>
-                    </div>
-                    <div className="flex items-center gap-2">
-                      <Clock className="h-4 w-4" />
-                      <span>{featuredPost.readTime}</span>
-                    </div>
-                  </div>
-
-                  <div className="flex flex-wrap gap-2 mb-6">
-                    {featuredPost.tags.map((tag, i) => (
-                      <Badge key={i} variant="outline" className="text-xs">
-                        {tag}
-                      </Badge>
-                    ))}
-                  </div>
-
-                  <Button 
-                    className="bg-primary hover:bg-primary/90 text-primary-foreground"
-                    onClick={() => window.open(featuredPost.url, '_blank')}
-                  >
-                    <ExternalLink className="mr-2 h-4 w-4" />
-                    Read Full Article
-                  </Button>
-                </div>
-
-                <div className="aspect-video bg-gradient-to-br from-primary/10 to-accent/10 rounded-lg flex items-center justify-center">
-                  <div className="text-6xl text-primary/20 font-bold">
-                    DATA
-                  </div>
-                </div>
-              </div>
-            </CardContent>
-          </Card>
-
-          {/* Regular Posts */}
+          {/* Blog Posts Grid */}
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {regularPosts.map((post, index) => (
+            {blogPosts.map((post, index) => (
               <Card key={index} className="bg-card border-border hover:shadow-lg transition-all duration-300 group">
                 <CardHeader>
                   <div className="flex items-center justify-between mb-2">
@@ -186,6 +128,7 @@ const Blog = () => {
               variant="outline" 
               size="lg"
               className="border-primary text-primary hover:bg-primary hover:text-primary-foreground"
+              onClick={() => window.open('https://medium.com/@atish.dhamala', '_blank')}
             >
               <ExternalLink className="mr-2 h-5 w-5" />
               View All Articles
