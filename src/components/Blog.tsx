@@ -21,7 +21,6 @@ const Blog = () => {
       readTime: "12 min read",
       category: "Dimensional Data Modeing",
       tags: ["Dimensional Data Modeing","SCDs", "Cumulative Table Design"],
-      views: "3.1k",
       url: "https://medium.com/@atish.dhamala/dimensional-data-modeling-part-2-idempotency-and-slowly-changing-dimensions-scd-type-2-with-eb60f23d1423"
     },
     {
@@ -31,7 +30,6 @@ const Blog = () => {
       readTime: "10 min read",
       category: "Data Modeling",
       tags: ["Dimensional Data Modeing","SCDs", "Cumulative Table Design"],
-      views: "1.8k",
       url: "https://medium.com/@atish.dhamala/dimensional-data-modeling-in-action-building-cumulative-tables-with-nba-player-stats-392d340a581d"
     },
     {
@@ -103,9 +101,6 @@ const Blog = () => {
                       <Clock className="h-4 w-4" />
                       <span>{featuredPost.readTime}</span>
                     </div>
-                    <div>
-                      {featuredPost.views} views
-                    </div>
                   </div>
 
                   <div className="flex flex-wrap gap-2 mb-6">
@@ -143,9 +138,6 @@ const Blog = () => {
                     <Badge variant="secondary" className="bg-neutral-custom-light text-neutral-custom-dark text-xs">
                       {post.category}
                     </Badge>
-                    <span className="text-xs text-muted-foreground">
-                      {post.views} views
-                    </span>
                   </div>
                   <CardTitle className="text-lg font-bold text-foreground group-hover:text-primary transition-colors leading-snug">
                     {post.title}
