@@ -35,14 +35,13 @@ const Blog = () => {
       url: "https://medium.com/@atish.dhamala/dimensional-data-modeling-in-action-building-cumulative-tables-with-nba-player-stats-392d340a581d"
     },
     {
-      title: "Data Warehouse vs Data Lake vs Data Lakehouse: A Modern Comparison",
-      excerpt: "Understanding the evolution of data storage architectures and when to choose each approach for your organization's data strategy.",
+      title: "Learning ETL with APIs: A Hands-On Journey into Data Engineering",
+      excerpt: "From fetching raw JSON data to automating the entire pipeline locally first and moving into cloud automation with GitHub Actions.",
       date: "2023-10-25",
       readTime: "6 min read",
-      category: "Data Architecture",
-      tags: ["Data Warehouse", "Data Lake", "Lakehouse", "Strategy"],
-      views: "4.2k",
-      url: "#"
+      category: "Data Engineering",
+      tags: ["APIs","ETL","Data Pipelines"],
+      url: "https://medium.com/@atish.dhamala/learning-etl-with-apis-a-hands-on-journey-into-data-engineering-b11ef5fbde16"
     },
     {
       title: "Advanced SQL Techniques for Data Analysts",
