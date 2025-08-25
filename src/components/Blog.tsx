@@ -116,7 +116,10 @@ const Blog = () => {
                     ))}
                   </div>
 
-                  <Button className="bg-primary hover:bg-primary/90 text-primary-foreground">
+                  <Button 
+                    className="bg-primary hover:bg-primary/90 text-primary-foreground"
+                    onClick={() => window.open(featuredPost.url, '_blank')}
+                  >
                     <ExternalLink className="mr-2 h-4 w-4" />
                     Read Full Article
                   </Button>
@@ -177,6 +180,7 @@ const Blog = () => {
                     variant="ghost" 
                     size="sm" 
                     className="text-primary hover:text-primary hover:bg-primary/10 p-0 h-auto font-medium"
+                    onClick={() => window.open(post.url, '_blank')}
                   >
                     Read More →
                   </Button>
