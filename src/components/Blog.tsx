@@ -42,26 +42,6 @@ const Blog = () => {
       category: "Data Engineering",
       tags: ["APIs","ETL","Data Pipelines"],
       url: "https://medium.com/@atish.dhamala/learning-etl-with-apis-a-hands-on-journey-into-data-engineering-b11ef5fbde16"
-    },
-    {
-      title: "Advanced SQL Techniques for Data Analysts",
-      excerpt: "Master complex SQL patterns, window functions, and optimization techniques that will elevate your data analysis capabilities.",
-      date: "2023-09-18",
-      readTime: "9 min read",
-      category: "SQL",
-      tags: ["SQL", "Analytics", "Optimization", "Performance"],
-      views: "5.1k",
-      url: "#"
-    },
-    {
-      title: "Building a Data-Driven Culture: Lessons from the Trenches",
-      excerpt: "Practical insights on how to foster data literacy and create a culture where data drives decision-making across all levels of an organization.",
-      date: "2023-08-22",
-      readTime: "7 min read",
-      category: "Leadership",
-      tags: ["Culture", "Leadership", "Strategy", "Data Literacy"],
-      views: "2.9k",
-      url: "#"
     }
   ];
 
