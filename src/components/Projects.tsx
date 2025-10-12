@@ -6,30 +6,30 @@ import { ExternalLink, Github } from 'lucide-react';
 const Projects = () => {
   const projects = [
     {
-      title: "Real-time Analytics Platform",
-      description: "Built a scalable real-time analytics platform processing 1M+ events per second with sub-second latency for e-commerce insights.",
-      technologies: ["Apache Kafka", "Apache Spark", "Redis", "React", "Python", "AWS"],
+      title: "End to End Data Engineering/Analytics Project using PostgreSQL, Python, Google Sheets API & Tableau",
+      description: "Building a data warehouse with SQL, performing the ETL processes and data modeling to make it ready for further analytics, and also performing the analytics on modeled data.",
+      technologies: ["SQL","Python","Tableau"],
       highlights: [
-        "99.9% uptime with automatic failover",
-        "Real-time dashboard with 500ms refresh rate",
-        "Machine learning-powered anomaly detection"
+        "Designed Medallion-structured Data Warehouse (Bronze-Silver-Gold) integrating ERP & CRM data into PostgreSQL",
+        "Developed a fully automated analytics pipeline to feed a dynamic, interactive Tableau dashboard",
+        "Visualized KPIs such as Total Sales, AOV, and regional/category performance."
       ],
       demoUrl: "#",
       githubUrl: "https://github.com/Adh101/End-to-end-Data-Engineering-Analytics-Project-using-PostgresSQL-Python-Google-Sheets-Tableau",
       category: "Data Engineering"
     },
     {
-      title: "Customer Churn Prediction ML Model",
-      description: "Developed and deployed machine learning models to predict customer churn with 94% accuracy, resulting in $2M+ annual savings.",
-      technologies: ["Python", "TensorFlow", "scikit-learn", "MLflow", "Docker", "Kubernetes"],
+      title: "IPL Data Analytics Pipeline using AWS and Databricks",
+      description: "Data Analytics Pipeline by ingesting data into Amazon S3 from Data.world and analyzing it using the Databricks with PySpark and SparkSQL.",
+      technologies: ["Python", "Apache Spark", "AWS", "Databricks"],
       highlights: [
-        "94% prediction accuracy on test data",
-        "Automated retraining pipeline",
-        "A/B testing framework for model validation"
+        "Designed and implemented a cloud-native ETL pipeline to extract raw IPL cricket data from the data.world, ingest into Amazon S3, and orchestrate transformations within Databricks.",
+        "Built Spark-based transformations in Databricks notebooks to clean, standardize, and analyze large datasets, enabling advanced insights on player and match performance.",
+        "Delivered exploratory data analysis (EDA) and visualizations within Databricks, improving accessibility of cricket analytics for downstream reporting and BI use cases."
       ],
       demoUrl: "#",
-      githubUrl: "#",
-      category: "Machine Learning"
+      githubUrl: "https://github.com/Adh101/IPL-Data-Analysis-Pipeline-with-AWS-and-Databricks",
+      category: "Data Engineering"
     },
     {
       title: "Financial Risk Assessment Dashboard",
