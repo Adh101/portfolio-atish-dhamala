@@ -9,7 +9,7 @@ const Experience = () => {
       company: "SuperAI Brain Inc.",
       location: "San Francisco, CA",
       period: "2022 - 2024",
-      description: "Leading data engineering and analytics initiatives for a high-growth SaaS platform serving 1M+ users. Built scalable data pipelines processing 100TB+ daily.",
+      description: "Leading data engineering and analytics initiatives for a high-growth self-service platform. Built scalable data pipelines processing large enterprise datasets.",
       achievements: [
         "Modeled enterprise datasets and build ETL/ML pipelines processing large records, cutting runtime by 40%.",
         "Managed Snowflake with robust unit/integration/data-quality tests and accelerating analytics across multiple data sources.",
@@ -23,7 +23,7 @@ const Experience = () => {
       company: "Ingrails Pvt.Ltd",
       location: "Nepal",
       period: "2020 - 2022",
-      description: "Developed analytics solutions for financial risk assessment and fraud detection systems, processing millions of transactions daily.",
+      description: "Developed analytics solutions for market research and operational excellence, acquiring data from various resources.",
       achievements: [
         "Built Python/SQL pipelines to ingest and clean multi-source marketing & CRM data, boosting model accuracy while upholding data governance.",
         "Developed K-Means + logistic regression on 100K+ records to segment customers and predict churn, enabling campaigns that cut churn 30%.",
