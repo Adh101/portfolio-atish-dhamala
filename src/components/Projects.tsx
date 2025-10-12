@@ -53,8 +53,8 @@ const Projects = () => {
         "Developed end-to-end training pipeline leveraging TensorFlow and Keras to preprocess and augment 3D MRI data, fine-tune models using Adam optimizer with Total Loss, and evaluate segmentation performance, resulting in improved segmentation accuracy using IoU and Dice Coefficient, achieving accurate segmentation (Final IoU: 0.72 training, 0.63 validation)."
       ],
       demoUrl: "#",
-      githubUrl: "#",
-      category: "Data Engineering"
+      githubUrl: "https://github.com/Adh101/Brain-MRI-3D-Image-Segmenation-using-Deep-Learning",
+      category: "Machine Learning"
     }
   ];
 
