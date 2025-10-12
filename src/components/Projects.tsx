@@ -45,13 +45,12 @@ const Projects = () => {
       category: "Business Intelligence"
     },
     {
-      title: "Data Lake Migration Project",
-      description: "Led migration of legacy data warehouse to modern data lake architecture, improving query performance by 10x.",
-      technologies: ["AWS S3", "AWS Glue", "Apache Parquet", "Terraform", "Python", "Snowflake"],
+      title: "Brain MRI 3D Image Segmentation using Deep Learning ",
+      description: "Built segmentation model of 3D brain MRI images using Convolutional Neural Networks (CNNs). The primary models used are U-Net and Attention U-Net, which are designed to efficiently capture spatial hierarchies and segment medical images with high precision.",
+      technologies: ["Python", "PyTorch", "U-Net", "Attention U-Net", "Image Processing"],
       highlights: [
-        "10x improvement in query performance",
-        "70% reduction in storage costs",
-        "Zero downtime migration strategy"
+        "Implemented 3D brain MRI segmentation models using U-Net and Attention U-Net architectures to segment brain tumors and structures from the BraTS 2020 dataset, achieving high precision in identifying tumor cores, edema, and enhancing regions with Dice Coeficients and IoU metrics.",
+        "Developed end-to-end training pipeline leveraging TensorFlow and Keras to preprocess and augment 3D MRI data, fine-tune models using Adam optimizer with Total Loss, and evaluate segmentation performance, resulting in improved segmentation accuracy using IoU and Dice Coefficient, achieving accurate segmentation (Final IoU: 0.72 training, 0.63 validation)."
       ],
       demoUrl: "#",
       githubUrl: "#",
