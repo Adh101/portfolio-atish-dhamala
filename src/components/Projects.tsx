@@ -55,6 +55,18 @@ const Projects = () => {
       demoUrl: "#",
       githubUrl: "https://github.com/Adh101/Brain-MRI-3D-Image-Segmenation-using-Deep-Learning",
       category: "Machine Learning"
+    },
+        {
+      title: "Eye Disease Classification from Retinal Scans using Deep Learning ",
+      description: "Deep convolutional neural networks with transfer learning to classify retinal images into five severity levels of DR. Leveraging the APTOS 2019 dataset, two state-of-the-art deep learning models, ResNet50 and EfficientNet-B0 models are implemented and fine-tuned.",
+      technologies: ["Python", "PyTorch", "ResNet50", "EfficientNet", "Image Processing","CLAHE"],
+      highlights: [
+        "Built a PyTorch training pipeline end-to-end (datasets, loaders, transforms, training/validation loops) for diabetic retinopathy classification using the APTOS retina fundus dataset, and fine-tuned ResNet-50/EfficientNet with differential LRs, weight decay.",
+        "Experimented the both ResNet50 and EfficientNet models with CLAHE-enhanced preprocessing which improved theperformance of both models with ResNet50 achieving 82% accuracy and EfficientNet with almost 80%, significantly better with baseline model with no CLAHE pre processing."
+      ],
+      demoUrl: "#",
+      githubUrl: "https://github.com/Adh101/Eye-Disease-Classification-from-Retinal-Scans-Using-Deep-Learning",
+      category: "Machine Learning"
     }
   ];
 
