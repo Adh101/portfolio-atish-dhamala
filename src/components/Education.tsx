@@ -1,6 +1,6 @@
 import { Card, CardContent } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
-import { GraduationCap, Award, BookOpen, Calendar } from 'lucide-react';
+import { GraduationCap, BookOpen, Calendar } from 'lucide-react';
 
 const Education = () => {
   const education = [
@@ -34,32 +34,6 @@ const Education = () => {
     }
   ];
 
-  const additionalEducation = [
-    {
-      title: "Deep Learning Specialization",
-      provider: "Coursera (DeepLearning.AI)",
-      year: "2020",
-      type: "Online Course"
-    },
-    {
-      title: "AWS Solutions Architect Bootcamp",
-      provider: "A Cloud Guru",
-      year: "2021",
-      type: "Professional Training"
-    },
-    {
-      title: "Advanced Analytics Workshop",
-      provider: "Tableau Conference",
-      year: "2022",
-      type: "Workshop"
-    },
-    {
-      title: "MLOps Engineering Course",
-      provider: "Udacity",
-      year: "2023",
-      type: "Nanodegree"
-    }
-  ];
 
   return (
     <section id="education" className="py-20 bg-background">
@@ -74,7 +48,7 @@ const Education = () => {
             </p>
           </div>
 
-          <div className="space-y-8 mb-16">
+          <div className="space-y-8">
             {education.map((edu, index) => (
               <Card key={index} className="bg-card border-border hover:shadow-lg transition-shadow duration-300">
                 <CardContent className="p-8">
@@ -125,34 +99,6 @@ const Education = () => {
               </Card>
             ))}
           </div>
-
-          <Card className="bg-card border-border">
-            <CardContent className="p-8">
-              <h3 className="text-2xl font-bold text-foreground mb-6 text-center">
-                Continuing Education & Professional Development
-              </h3>
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                {additionalEducation.map((item, index) => (
-                  <div key={index} className="border border-border rounded-lg p-4 hover:bg-muted/50 transition-colors duration-200">
-                    <div className="flex items-start justify-between mb-2">
-                      <h4 className="font-semibold text-foreground text-sm">
-                        {item.title}
-                      </h4>
-                      <Badge variant="outline" className="text-xs">
-                        {item.year}
-                      </Badge>
-                    </div>
-                    <div className="text-sm text-primary mb-1">
-                      {item.provider}
-                    </div>
-                    <div className="text-xs text-muted-foreground">
-                      {item.type}
-                    </div>
-                  </div>
-                ))}
-              </div>
-            </CardContent>
-          </Card>
         </div>
       </div>
     </section>
