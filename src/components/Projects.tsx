@@ -32,16 +32,16 @@ const Projects = () => {
       category: "Data Engineering"
     },
     {
-      title: "Financial Risk Assessment Dashboard",
-      description: "Created comprehensive risk assessment dashboard for financial portfolio management with real-time market data integration.",
-      technologies: ["Tableau", "Python", "PostgreSQL", "Alpha Vantage API", "AWS Lambda"],
+      title: "Trail-Trekker Analytics Pipeline SQLMesh + DuckDB ",
+      description: "Built the data warehouse for the data collected by Trail Trekker using DuckDB and data models using SQLMesh. Further, extend the data modeling to understand the subscription changes on a daily basis for their customers.",
+      technologies: ["SQL","DuckDB","SQLMesh","Airflow"],
       highlights: [
-        "Real-time portfolio risk visualization",
-        "Automated compliance reporting",
-        "Integration with 10+ data sources"
+        "Delivered an end-to-end data pipeline tracking user subscription plan switch paths (from to, monthly to annual) and cancellations.",
+        "Built dimensions (with SCD-1 and 2 types) and fact data model to enrich facts (price/limits) for downstream churn, upgrade/downgrade, and MRR/ARR analyses.",
+        "Orchestrated hourly updates, removing manual runs and keeping dashboards current."
       ],
       demoUrl: "#",
-      githubUrl: "#",
+      githubUrl: "https://github.com/Adh101/Trail-Trekker-Data-Analytics-Pipeline-using-SQLMesh-and-DuckDB",
       category: "Business Intelligence"
     },
     {
