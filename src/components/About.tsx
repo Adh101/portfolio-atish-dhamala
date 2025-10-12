@@ -46,13 +46,10 @@ const About = () => {
               </h3>
               <div className="space-y-4 text-muted-foreground leading-relaxed">
                 <p>
-                  With over 5 years of experience in data engineering and analytics, I specialize in building 
-                  end-to-end data solutions that drive business growth and operational efficiency.
-                </p>
-                <p>
-                  My journey began with a strong foundation in computer science and mathematics, which led me 
-                  to pursue advanced analytics and machine learning. I've worked across various industries, 
-                  from fintech to healthcare, always focusing on delivering measurable impact through data.
+                  I am an experienced data analytics professional with over 4 years in this domain and currently pursuing MS in Computer Science,
+                  specializing in AI. My expertise lies in designing and orchestrating scalable data pipelines, building data models (dimensional, fact, graph),
+                  managing data warehouses, crafting data visualizations to build impactful and actionable data stories. 
+                  Further, I am exploring and growing essential skills so as to become a valuable asset for the technology industry.
                 </p>
                 <p>
                   I believe in the power of clean, well-structured data and robust engineering practices to 

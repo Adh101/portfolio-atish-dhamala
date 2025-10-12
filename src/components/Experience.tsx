@@ -11,11 +11,12 @@ const Experience = () => {
       period: "2022 - 2024",
       description: "Leading data engineering and analytics initiatives for a high-growth SaaS platform serving 1M+ users. Built scalable data pipelines processing 100TB+ daily.",
       achievements: [
-        "Reduced data processing time by 60% through optimized ETL pipelines",
-        "Implemented real-time analytics platform serving 500K+ queries/day",
-        "Led team of 4 engineers in migrating legacy systems to cloud-native architecture"
+        "Modeled enterprise datasets and build ETL/ML pipelines processing large records, cutting runtime by 40%.",
+        "Managed Snowflake with robust unit/integration/data-quality tests and accelerating analytics across multiple data sources.",
+        "Worked on the automated EDA and data-cleaning features in the SuperAI self-serve analytics platform.",
+        "Integrated Power BI/Tableau to an in-house LLM, enabling natural-language ad-hoc analysis for non-technical users."
       ],
-      technologies: ["Python", "SQL", "Apache Spark", "Kafka", "Flink", "AWS", "Snowflake", "Databricks", "Terraform"]
+      technologies: ["Python", "SQL", "Apache Spark", "Kafka", "Flink", "AWS", "Snowflake", "Databricks", "Power BI"]
     },
     {
       title: "Research Data Analyst",
@@ -24,24 +25,24 @@ const Experience = () => {
       period: "2020 - 2022",
       description: "Developed analytics solutions for financial risk assessment and fraud detection systems, processing millions of transactions daily.",
       achievements: [
-        "Built ML models that reduced false positives in fraud detection by 40%",
-        "Created executive dashboards providing real-time business insights",
-        "Optimized SQL queries resulting in 3x faster report generation"
+        "Built Python/SQL pipelines to ingest and clean multi-source marketing & CRM data, boosting model accuracy while upholding data governance.",
+        "Developed K-Means + logistic regression on 100K+ records to segment customers and predict churn, enabling campaigns that cut churn 30%.",
+        "Delivered Tableau dashboards and automated reports, reducing manual reporting time by 40% for cross-functional teams."
       ],
-      technologies: ["SQL", "Python", "Tableau", "PostgreSQL", "Docker", "scikit-learn"]
+      technologies: ["SQL", "Python", "Tableau", "PostgreSQL", "Machine Learning"]
     },
     {
       title: "Data Analyst",
       company: "Freshktm Pvt Ltd",
       location: "Nepal",
       period: "2019 - 2020",
-      description: "Started career building predictive models and automated reporting systems for e-commerce clients.",
+      description: "Started career building predictive models and automated reporting systems for agri-tech supply chain system.",
       achievements: [
-        "Developed customer segmentation model increasing campaign ROI by 25%",
-        "Automated manual reporting processes saving 20 hours/week",
-        "Built A/B testing framework for product optimization"
+        "Built SQL-based supply chain pipelines integrating ERP inventory systems, improving operational efficiency by 20%.",
+        " Developed ARIMA and Prophet-based forecasting models, improving prediction accuracy by 25% and reducing stockouts by 15%.",
+        "Developed and maintained Tableau dashboards with weekly refreshes, reducing executive reporting time."
       ],
-      technologies: ["R", "Python", "Power BI", "MySQL", "Git", "Jupyter"]
+      technologies: ["Python", "Tableau", "PostgresSQL", "Git", "Jupyter","Time Series Analysis"]
     }
   ];
 
