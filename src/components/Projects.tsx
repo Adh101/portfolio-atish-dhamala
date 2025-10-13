@@ -80,6 +80,17 @@ const Projects = () => {
       demoUrl: "#",
       githubUrl: "https://mavenshowcase.com/project/48963",
       category: "Business Intelligence"
+    },
+    {
+     title: "Netflix Content Analytics Dashboard in Tableau ",
+      description: "Built an interactive analytics dashboard on 6,000+ Netflix titles, uncovering content gaps and audience trends across countries, genres, and maturity ratings to support data-driven content acquisition strategies.",
+      technologies: ["Tableau", "Excel"],
+      highlights: [
+        "Highlighted that movies (68%) dominate over TV shows, with documentaries and stand-up comedy as fastest growing genres, and revealed a 2015–2019 content surge led by U.S. and India, providing insights into regional expansion opportunities."
+      ],
+      demoUrl: "#",
+      githubUrl: "https://public.tableau.com/app/profile/atish.dhamala/viz/NetflixMoviesTVShows_16699123248450/NetflixMoviesTVShows",
+      category: "Business Intelligence"
     }
   ];
 
