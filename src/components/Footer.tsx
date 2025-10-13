@@ -18,10 +18,9 @@ const Footer = () => {
   ];
 
   const socialLinks = [
-    { icon: <Linkedin className="h-5 w-5" />, href: 'https://linkedin.com/in/dataengineer', label: 'LinkedIn' },
-    { icon: <Github className="h-5 w-5" />, href: 'https://github.com/dataengineer', label: 'GitHub' },
-    { icon: <Twitter className="h-5 w-5" />, href: 'https://twitter.com/dataengineer', label: 'Twitter' },
-    { icon: <Mail className="h-5 w-5" />, href: 'mailto:hello@dataengineer.dev', label: 'Email' }
+    { icon: <Linkedin className="h-5 w-5" />, href: 'https://www.linkedin.com/in/atishdhamala/', label: 'LinkedIn' },
+    { icon: <Github className="h-5 w-5" />, href: 'https://github.com/Adh101/', label: 'GitHub' },,
+    { icon: <Mail className="h-5 w-5" />, href: 'mailto:atish.dhamala@gmail.com', label: 'Email' }
   ];
 
   const scrollToSection = (href: string) => {
@@ -87,9 +86,7 @@ const Footer = () => {
                 Get In Touch
               </h4>
               <div className="space-y-3 text-muted-foreground">
-                <p>San Francisco, CA</p>
-                <p>hello@dataengineer.dev</p>
-                <p>+1 (555) 123-4567</p>
+                <p>atish.dhamala@gmail.com</p>
               </div>
               <Button 
                 className="mt-4 bg-primary hover:bg-primary/90 text-primary-foreground"
@@ -105,9 +102,8 @@ const Footer = () => {
           {/* Bottom Footer */}
           <div className="flex flex-col md:flex-row items-center justify-between gap-4">
             <div className="flex items-center gap-2 text-muted-foreground text-sm">
-              <span>© 2024 Data Engineer Portfolio. Made with</span>
-              <Heart className="h-4 w-4 text-red-500 fill-current" />
-              <span>and lots of coffee</span>
+              <span>© 2025 Atish Dhamala Portfolio.</span>
+              <span> Made with lots of coffee</span>
             </div>
 
             <div className="flex items-center gap-6 text-sm text-muted-foreground">
