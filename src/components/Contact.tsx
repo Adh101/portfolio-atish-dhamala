@@ -47,12 +47,6 @@ const Contact = () => {
       label: "Email",
       value: "atish.dhamala@gmail.com",
       href: "mailto:atish.dhamala@gmail.com"
-    },
-    {
-      icon: <Phone className="h-5 w-5" />,
-      label: "Phone",
-      value: "+1 (555) 123-4567",
-      href: "tel:+15551234567"
     }
   ];
 
