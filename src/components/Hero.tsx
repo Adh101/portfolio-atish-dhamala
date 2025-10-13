@@ -61,7 +61,7 @@ const Hero = () => {
                   variant="ghost" 
                   size="lg"
                   className="text-muted-foreground hover:text-primary px-8 py-6 text-lg"
-                  onClick={() => window.open('/public/Resume_Atish_Dhamala.pdf', '_blank')}
+                  onClick={() => window.open('Adh101/analytic-essence-page/public/Resume_Atish_Dhamala.pdf', '_blank')}
                 >
                   <Download className="mr-2 h-5 w-5" />
                   Resume
