@@ -60,14 +60,14 @@ const Contact = () => {
     {
       icon: <Linkedin className="h-5 w-5" />,
       label: "LinkedIn",
-      href: "https://linkedin.com/in/dataengineer",
-      username: "/in/dataengineer"
+      href: "https://linkedin.com/in/atishdhamala/",
+      username: "/in/atishdhamala/"
     },
     {
       icon: <Github className="h-5 w-5" />,
       label: "GitHub",
-      href: "https://github.com/dataengineer",
-      username: "@dataengineer"
+      href: "https://github.com/Adh101",
+      username: "@Adh101"
     }
   ];
 
