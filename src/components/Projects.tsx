@@ -56,7 +56,7 @@ const Projects = () => {
       githubUrl: "https://github.com/Adh101/Brain-MRI-3D-Image-Segmenation-using-Deep-Learning",
       category: "Machine Learning"
     },
-        {
+    {
       title: "Eye Disease Classification from Retinal Scans using Deep Learning ",
       description: "Deep convolutional neural networks with transfer learning to classify retinal images into five severity levels of DR. Leveraging the APTOS 2019 dataset, two state-of-the-art deep learning models, ResNet50 and EfficientNet-B0 models are implemented and fine-tuned.",
       technologies: ["Python", "PyTorch", "ResNet50", "EfficientNet", "Image Processing","CLAHE"],
@@ -67,6 +67,19 @@ const Projects = () => {
       demoUrl: "#",
       githubUrl: "https://github.com/Adh101/Eye-Disease-Classification-from-Retinal-Scans-Using-Deep-Learning",
       category: "Machine Learning"
+    },
+    {
+     title: "Customer Loan Performance & Interest Analysis — Power BI",
+      description: "Built the ineractive Power BI dashboard to analyze the customer loans and impact of different interest rates.",
+      technologies: ["Power BI", "DAX", "Growth Analysis","What-if Analysis"],
+      highlights: [
+        "Business case: Lending team needed to understand profitability and risk by region/scheme/manager and test how interest or tenure changes affect ROI.",
+        "Key Methods: What-If simulation showed ROI sensitivity to +/− interest% and tenure; underperforming schemes concentrated in two regions; manager-level drill-through exposed high NPL pockets.",
+        "Impact: Scenario planning informed pricing/tenure guidelines; targeted remediation for low-ROI segments; reduced manual Excel modeling and sped portfolio decisions."
+      ],
+      demoUrl: "#",
+      githubUrl: "https://mavenshowcase.com/project/48963",
+      category: "Business Intelligence"
     }
   ];
 
