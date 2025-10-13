@@ -53,12 +53,6 @@ const Contact = () => {
       label: "Phone",
       value: "+1 (555) 123-4567",
       href: "tel:+15551234567"
-    },
-    {
-      icon: <MapPin className="h-5 w-5" />,
-      label: "Location",
-      value: "Vermillion, SD",
-      href: "#"
     }
   ];
 
@@ -73,12 +67,6 @@ const Contact = () => {
       icon: <Github className="h-5 w-5" />,
       label: "GitHub",
       href: "https://github.com/dataengineer",
-      username: "@dataengineer"
-    },
-    {
-      icon: <Twitter className="h-5 w-5" />,
-      label: "Twitter",
-      href: "https://twitter.com/dataengineer",
       username: "@dataengineer"
     }
   ];
