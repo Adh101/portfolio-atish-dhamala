@@ -15,8 +15,6 @@ const Skills = () => {
       icon: <Database className="h-6 w-6 text-primary" />,
       title: "Data Engineering",
       skills: [
-        "Python",
-        "SQL", 
         "Apache Spark",
         "Apache Kafka",
         "ETL/ELT"
@@ -60,9 +58,8 @@ const Skills = () => {
       title: "Programming",
       skills: [
         "Python",
+        "SQL",
         "R",
-        "Java",
-        "Scala",
         "JavaScript"
       ]
     },
@@ -71,7 +68,7 @@ const Skills = () => {
       title: "DevOps & Tools",
       skills: [
         "Docker",
-        "Kubernetes",
+        "Airflow",
         "Terraform",
         "Git",
         "CI/CD"
