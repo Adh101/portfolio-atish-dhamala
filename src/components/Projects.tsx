@@ -93,6 +93,19 @@ const Projects = () => {
       demoUrl: "#",
       githubUrl: "https://public.tableau.com/app/profile/atish.dhamala/viz/NetflixMoviesTVShows_16699123248450/NetflixMoviesTVShows",
       category: "Business Intelligence"
+    },
+    {
+     title: "Customer Segmentation Using RFM Analysis ",
+      description: "RFM (Recency–Frequency–Monetary) analysis to segment customers from transactional data, visualize behavior, and generate actionable marketing insights.",
+      technologies: ["Python","Numpy","Pandas","Plotly","Seaborn","Matplotlib", "RFM Analysis"],
+      highlights: [
+        "Built an end-to-end RFM pipeline in Python (pandas/numpy) to segment customers by Recency, Frequency, and Monetary value using a snapshot date and quantile-based scoring (R/F/M quartiles → composite RFM_Score).",
+        "Mapped RFM scores to marketing segments (Champions, Loyal, New, At Risk, Lost, Potential Loyalists, Hibernating, Other), enabling immediate targeting from transactional data.",
+        "Made insights actionable: refined rules to split dominant “Other” category into targeted groups (e.g., Potential Loyalists/Hibernating) and delivered decision-ready visuals & customer extracts for win-back/nurture campaigns."
+      ],
+      demoUrl: "#",
+      githubUrl: "https://github.com/Adh101/Customer-Segmentation-Using-RFM-Analysis",
+      category: "Business Intelligence"
     }
   ];
 
@@ -177,7 +190,7 @@ const Projects = () => {
                     >
                       <a href={project.githubUrl} target="_blank" rel="noopener noreferrer">
                         <Github className="mr-2 h-4 w-4" />
-                        Code
+                        Link
                       </a>
                     </Button>
                   </div>
