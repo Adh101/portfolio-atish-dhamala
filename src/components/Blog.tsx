@@ -2,8 +2,10 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
 import { Calendar, Clock, ExternalLink, TrendingUp } from 'lucide-react';
+import { useState } from 'react';
 
 const Blog = () => {
+  const [selectedCategory, setSelectedCategory] = useState("All");
   const blogPosts = [
     {
       title: "How Apache Spark Transformed Distributed Computing — Architecture, Joins & Shuffling Explained!!",
@@ -45,6 +47,10 @@ const Blog = () => {
 
   const categories = ["All", "Data Engineering", "Machine Learning", "Analytics", "Leadership"];
 
+  const filteredPosts = selectedCategory === "All" 
+    ? blogPosts 
+    : blogPosts.filter(post => post.category === selectedCategory);
+
   return (
     <section id="blogs" className="py-20 bg-muted/20">
       <div className="container mx-auto px-4">
@@ -59,12 +65,13 @@ const Blog = () => {
           </div>
 
           <div className="flex flex-wrap justify-center gap-3 mb-12">
-            {categories.map((category, index) => (
+            {categories.map((category) => (
               <Button
-                key={index}
-                variant={index === 0 ? "default" : "outline"}
+                key={category}
+                variant={selectedCategory === category ? "default" : "outline"}
                 size="sm"
-                className={index === 0 ? "bg-primary text-primary-foreground" : "border-primary text-primary hover:bg-primary hover:text-primary-foreground"}
+                className={selectedCategory === category ? "bg-primary text-primary-foreground" : "border-primary text-primary hover:bg-primary hover:text-primary-foreground"}
+                onClick={() => setSelectedCategory(category)}
               >
                 {category}
               </Button>
@@ -73,7 +80,7 @@ const Blog = () => {
 
           {/* Blog Posts Grid */}
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {blogPosts.map((post, index) => (
+            {filteredPosts.map((post, index) => (
               <Card key={index} className="bg-card border-border hover:shadow-lg transition-all duration-300 group">
                 <CardHeader>
                   <div className="flex items-center justify-between mb-2">

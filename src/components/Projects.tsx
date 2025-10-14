@@ -2,8 +2,10 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
 import { ExternalLink, Github } from 'lucide-react';
+import { useState } from 'react';
 
 const Projects = () => {
+  const [selectedCategory, setSelectedCategory] = useState("All");
   const projects = [
     {
       title: "End to End Data Engineering/Analytics Project using PostgreSQL, Python, Google Sheets API & Tableau",
@@ -96,6 +98,10 @@ const Projects = () => {
 
   const categories = ["All", "Data Engineering", "Machine Learning", "Business Intelligence"];
 
+  const filteredProjects = selectedCategory === "All" 
+    ? projects 
+    : projects.filter(project => project.category === selectedCategory);
+
   return (
     <section id="projects" className="py-20 bg-background">
       <div className="container mx-auto px-4">
@@ -110,11 +116,12 @@ const Projects = () => {
           </div>
 
           <div className="flex flex-wrap justify-center gap-3 mb-12">
-            {categories.map((category, index) => (
+            {categories.map((category) => (
               <Button
-                key={index}
-                variant={index === 0 ? "default" : "outline"}
-                className={index === 0 ? "bg-primary text-primary-foreground" : "border-primary text-primary hover:bg-primary hover:text-primary-foreground"}
+                key={category}
+                variant={selectedCategory === category ? "default" : "outline"}
+                className={selectedCategory === category ? "bg-primary text-primary-foreground" : "border-primary text-primary hover:bg-primary hover:text-primary-foreground"}
+                onClick={() => setSelectedCategory(category)}
               >
                 {category}
               </Button>
@@ -122,7 +129,7 @@ const Projects = () => {
           </div>
 
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
-            {projects.map((project, index) => (
+            {filteredProjects.map((project, index) => (
               <Card key={index} className="bg-card border-border hover:shadow-xl transition-all duration-300 group">
                 <CardHeader>
                   <CardTitle className="text-xl font-bold text-foreground group-hover:text-primary transition-colors mb-4">
