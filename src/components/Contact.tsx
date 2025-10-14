@@ -225,14 +225,7 @@ const Contact = () => {
                   <Button 
                     variant="outline" 
                     className="border-primary text-primary hover:bg-primary hover:text-primary-foreground"
-                    onClick={() => {
-                      const link = document.createElement('a');
-                      link.href = '/Atish Dhamala_Data Engineer.pdf';
-                      link.download = 'Atish_Dhamala_Data_Engineer.pdf';
-                      document.body.appendChild(link);
-                      link.click();
-                      document.body.removeChild(link);
-                    }}
+                    onClick={() => window.open('/Atish Dhamala_Data Engineer.pdf', '_blank')}
                   >
                     <Download className="mr-2 h-4 w-4" />
                     Download PDF
