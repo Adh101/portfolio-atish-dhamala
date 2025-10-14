@@ -227,9 +227,11 @@ const Contact = () => {
                     className="border-primary text-primary hover:bg-primary hover:text-primary-foreground"
                     onClick={() => {
                       const link = document.createElement('a');
-                      link.href = '/Resume_Atish_Dhamala.pdf';
-                      link.download = 'Resume_Atish_Dhamala.pdf';
+                      link.href = '/Atish Dhamala_Data Engineer.pdf';
+                      link.download = 'Atish_Dhamala_Data_Engineer.pdf';
+                      document.body.appendChild(link);
                       link.click();
+                      document.body.removeChild(link);
                     }}
                   >
                     <Download className="mr-2 h-4 w-4" />
