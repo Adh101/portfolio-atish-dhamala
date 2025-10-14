@@ -227,7 +227,7 @@ const Contact = () => {
                     className="border-primary text-primary hover:bg-primary hover:text-primary-foreground"
                     onClick={() => {
                       const link = document.createElement('a');
-                      link.href = 'public/Resume_Atish_Dhamala.pdf';
+                      link.href = '/Resume_Atish_Dhamala.pdf';
                       link.download = 'Resume_Atish_Dhamala.pdf';
                       link.click();
                     }}
