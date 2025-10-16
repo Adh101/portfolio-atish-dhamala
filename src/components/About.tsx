@@ -44,7 +44,7 @@ const About = () => {
               <h3 className="text-2xl font-bold text-foreground mb-6">
                 My Story
               </h3>
-              <div className="space-y-4 text-muted-foreground leading-relaxed">
+              <div className="space-y-4 text-muted-foreground leading-relaxed text-justify">
                 <p>
                   I am an experienced data analytics professional with over 4 years in this domain and currently pursuing MS in Computer Science,
                   specializing in AI. My expertise lies in designing and orchestrating scalable data pipelines, building data models (dimensional, fact, graph),
