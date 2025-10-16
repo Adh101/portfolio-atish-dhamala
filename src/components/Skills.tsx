@@ -30,7 +30,8 @@ const Skills = () => {
         "Snowflake",
         "Databricks",
         "SQLMesh",
-        "ETL/ELT"
+        "ETL/ELT",
+        "Data Modeling"
       ]
     },
     {
@@ -39,7 +40,6 @@ const Skills = () => {
       skills: [
         "Tableau",
         "Power BI",
-        "Data Modeling",
         "Statistical Analysis"
       ]
     },
