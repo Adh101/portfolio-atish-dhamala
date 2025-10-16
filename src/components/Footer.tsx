@@ -20,7 +20,7 @@ const Footer = () => {
   const socialLinks = [
     { icon: <Linkedin className="h-5 w-5" />, href: 'https://www.linkedin.com/in/atishdhamala/', label: 'LinkedIn' },
     { icon: <Github className="h-5 w-5" />, href: 'https://github.com/Adh101/', label: 'GitHub' },,
-    { icon: <Mail className="h-5 w-5" />, href: 'mailto:atish.dhamala@gmail.com', label: 'Email' }
+    { icon: <Mail className="h-5 w-5" />, href: 'atish.dhamala@gmail.com', label: 'Email' }
   ];
 
   const scrollToSection = (href: string) => {
