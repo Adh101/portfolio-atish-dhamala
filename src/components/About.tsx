@@ -1,6 +1,6 @@
 import { Card, CardContent } from '@/components/ui/card';
 import { BarChart3, Database, TrendingUp, Users } from 'lucide-react';
-import dataAnalyticsImage from '@/assets/data-analytics-workspace.jpg';
+import dataAnalyticsImage from '@/assets/data-workspace-modern.jpg';
 
 const About = () => {
   const highlights = [
