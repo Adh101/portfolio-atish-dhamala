@@ -11,12 +11,25 @@ import {
 
 const Skills = () => {
   const skillCategories = [
+     {
+      icon: <Code className="h-6 w-6 text-primary" />,
+      title: "Programming",
+      skills: [
+        "Python",
+        "SQL",
+        "R",
+        "JavaScript"
+      ]
+    },
     {
       icon: <Database className="h-6 w-6 text-primary" />,
       title: "Data Engineering",
       skills: [
         "Apache Spark",
         "Apache Kafka",
+        "Snowflake",
+        "Databricks",
+        "SQLMesh",
         "ETL/ELT"
       ]
     },
@@ -26,7 +39,6 @@ const Skills = () => {
       skills: [
         "Tableau",
         "Power BI",
-        "Looker",
         "Data Modeling",
         "Statistical Analysis"
       ]
@@ -48,19 +60,7 @@ const Skills = () => {
       skills: [
         "AWS",
         "Google Cloud",
-        "Azure",
-        "Snowflake",
-        "Databricks"
-      ]
-    },
-    {
-      icon: <Code className="h-6 w-6 text-primary" />,
-      title: "Programming",
-      skills: [
-        "Python",
-        "SQL",
-        "R",
-        "JavaScript"
+        "Azure"
       ]
     },
     {
@@ -69,7 +69,6 @@ const Skills = () => {
       skills: [
         "Docker",
         "Airflow",
-        "Terraform",
         "Git",
         "CI/CD"
       ]
