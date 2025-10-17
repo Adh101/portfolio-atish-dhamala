@@ -63,7 +63,7 @@ const Hero = () => {
                   className="px-8 py-6 text-lg"
                   onClick={() => {
                     const link = document.createElement('a');
-                    link.href = '/Atish Dhamala_Data Engineer.pdf';
+                    link.href = `${import.meta.env.BASE_URL}Atish Dhamala_Data Engineer.pdf`;
                     link.download = 'Atish_Dhamala_Data_Engineer.pdf';
                     document.body.appendChild(link);
                     link.click();
