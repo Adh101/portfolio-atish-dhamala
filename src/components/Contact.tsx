@@ -223,8 +223,7 @@ const Contact = () => {
                     Get a detailed overview of my experience, skills, and achievements
                   </p>
                   <Button 
-                    variant="outline" 
-                    className="border-primary text-primary hover:bg-primary hover:text-primary-foreground"
+                    variant="secondary"
                     onClick={() => {
                       const link = document.createElement('a');
                       link.href = '/Atish Dhamala_Data Engineer.pdf';

@@ -58,9 +58,9 @@ const Hero = () => {
                 </Button>
                 
                 <Button 
-                  variant="ghost" 
+                  variant="secondary" 
                   size="lg"
-                  className="text-muted-foreground hover:text-primary px-8 py-6 text-lg"
+                  className="px-8 py-6 text-lg"
                   onClick={() => {
                     const link = document.createElement('a');
                     link.href = '/Atish Dhamala_Data Engineer.pdf';
